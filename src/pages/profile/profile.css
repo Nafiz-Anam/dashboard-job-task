@@ -1,3 +1,9 @@
 .title{
   font-weight: 700;
 }
+
+.card-area:not(:first-child)>.card {
+  background-color: #f7f7f7 !important;
+  box-shadow: none!important;
+
+}

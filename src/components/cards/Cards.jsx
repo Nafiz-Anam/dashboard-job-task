@@ -4,10 +4,7 @@ import "./cards.css";
 const Cards = () => {
     return (
         <>
-            <div
-                className="card px-2 py-3 m-2 shadow bg-body rounded"
-                
-            >
+            <div className="card px-2 py-3 m-2 shadow bg-body rounded ">
                 <div className="card-top d-flex px-3">
                     <div className="days">2d ago</div>
                     <div className="action">

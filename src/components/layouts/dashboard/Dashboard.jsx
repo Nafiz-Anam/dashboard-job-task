@@ -18,7 +18,7 @@ const Dashboard = () => {
                                 type="search"
                                 id="site-search"
                                 className="search-input"
-                                placeholder="Global Search"
+                                placeholder="Search"
                                 autocomplete="on"
                             />
                         </label>
@@ -32,7 +32,7 @@ const Dashboard = () => {
                     {/* sidebar inner */}
                     <div className="sidebar_inner">
                         {/* person block*/}
-                        <div className="person">
+                        {/* <div className="person">
                             <img
                                 src="https://github.com/ShoshaTheTarnegolet/Dashboard-Project/blob/main/img/profile.png?raw=true"
                                 alt="profile_picture"
@@ -47,7 +47,7 @@ const Dashboard = () => {
                                     s.ferguson@gmail.com
                                 </span>
                             </div>
-                        </div>
+                        </div> */}
                         {/* navbar*/}
                         <nav className="navbar">
                             <ul>

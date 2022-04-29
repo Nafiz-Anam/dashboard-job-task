@@ -7,14 +7,14 @@ const Profile = () => {
     return (
         <div className="container p-4">
             <h3 className="title">My patients profiles</h3>
-            <div className="row py-5">
-                <div className="col-lg-3">
+            <div className="row py-5 profiles">
+                <div className="col-lg-3 card-area">
                     <Cards />
                 </div>
-                <div className="col-lg-3">
+                <div className="col-lg-3 card-area">
                     <Cards />
                 </div>
-                <div className="col-lg-3">
+                <div className="col-lg-3 card-area">
                     <Cards />
                 </div>
                 <div className="col-lg-3">

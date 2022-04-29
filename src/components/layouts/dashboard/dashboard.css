@@ -143,6 +143,7 @@ button[type="submit"] {
 .sidebar_inner {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: relative;
   height: 100%;
   padding: 1.3vw;
@@ -202,6 +203,8 @@ li {
   color: var(--spancolor);
 }
 
+
+
 .nav-item>a:hover {
   color: var(--spancolor);
 }
@@ -229,8 +232,8 @@ li {
 @media only screen and (max-width: 500px) {
   .wrapper {
     display: grid;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     grid-template-areas:
       "search"
       "main";
