@@ -265,7 +265,7 @@ li {
   left: 0;
   height: 100%;
   position: fixed;
-  width: 300px;
+  width: 280px;
 }
 
 .cross{
@@ -340,8 +340,9 @@ font-size: 26px;
   .side-slide .sidebar_inner{
     align-items: center;
   }
-  .side-slide .sidebar_inner .nav-bar{
+  .side-slide .sidebar_inner .navbar{
     justify-content: center;
+    flex-direction: column
   }
 
   .search {
