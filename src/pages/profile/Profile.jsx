@@ -33,7 +33,7 @@ const Profile = () => {
                     </p>
                     <div className="progress my-2">
                         <div
-                            className="progress-bar bg-success"
+                            className="progress-bar bg-info"
                             role="progressbar"
                             style={{ width: "60%" }}
                             aria-valuenow="60"

@@ -49,6 +49,7 @@ const Dashboard = () => {
                             </div>
                         </div> */}
                         {/* navbar*/}
+                        <h5 className="side-title">Patient</h5>
                         <nav className="navbar">
                             <ul>
                                 <li className="nav-item">
@@ -98,7 +99,7 @@ const Dashboard = () => {
                                 </li>
                                 <li className="nav-item">
                                     <a href="">
-                                        <div className="menu-icon">
+                                        <div className="menu-icon active">
                                             <i
                                                 class="fa-regular fa-user"
                                                 style={{ color: "#c2cfe0" }}
